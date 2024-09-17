@@ -8,7 +8,10 @@ export default function Tictactoe(){
     const [count,setCount]=useState(0);
     const [board,setboard]=useState(Array(9).fill(""));
     function handle(index){
-       
+        if(vis===true)
+        {
+            return;
+        }
         if(board[index] ===""){
         if(count%2==0)
         {
