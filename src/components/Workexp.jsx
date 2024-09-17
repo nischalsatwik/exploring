@@ -15,7 +15,7 @@ function Workexp() {
           <div className="work-body-div">
             <h3 className="work-body-li">Meta</h3>
             <ul>
-              <li >Worked as a team lead for 15 people</li>
+              <li>Worked as a team lead for 15 people</li>
               <li>Tested Meta applications</li>
               <li>Did Localization,accessibility and manual testing</li>
             </ul>
@@ -23,12 +23,14 @@ function Workexp() {
           </div>
           <div className="work-body-div">
             <h3 className="work-body-li">Solo Projects</h3>
-            <ul className="work-body-ul">
-              <li>Shopping app-used tools :SpringBoot,React,MySql,Git,Java,Javascript</li>
+            <ul >
+              <li>Shopping app-used tools: SpringBoot,<br></br>React,MySql,Git,Java,Javascript</li>
               <li>Developed small games using Javascript: Number guessing game, Tic Tac Toe</li>
             </ul> 
+            <div className="work-body-li-img">
             <img className=" work-body-shop" src="src\Images\shop.jpg"></img>
             <img className="work-body-game" src="src\Images\games.jpg"></img>
+            </div>
           </div>
         </div>
   </div>

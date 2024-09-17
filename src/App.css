@@ -63,30 +63,32 @@ button:after {
   background-color:#eefc5e;
   box-shadow: 5px -5px 5px black;
   width:900px;
-  margin-top: 100px;
-  margin-left:300px;
+  margin-top: 200px;
+  margin-left:auto;
+  margin-right: auto;
   border: 5px solid black;
   border-radius: 10px;
 }
 .home-first{
  
-  margin-left:170px;
+  padding-left: 160px;
 }
 .home-head{
   text-align: center;
+  font-size:30px !important;
 }
 .home-made{
   border-radius: 10px;
-  margin-left:190px; 
+  margin-left:auto;
+  margin-right:auto; 
   color: #213547;
   display:flex;
-  justify-content: center;
+  justify-content:start;
   align-items: center;
   background-color:#eefc5e;
-  width:890px;
-  height:370px;
-  margin-top: -30px;
-  
+  width:930px;
+  height:350px;
+  box-shadow: 5px 5px 5px black;
 }
 .home-just{
   text-decoration: underline;
@@ -103,10 +105,11 @@ button:after {
   font-size:large;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
 }
 
 .home-ip:focus {
-  color: rgb(0, 255, 255);
+  color: white;
   background-color: #212121;
   outline-color: greenyellow;
   box-shadow: -3px -3px 15px greenyellow;
@@ -119,37 +122,38 @@ button:after {
   justify-content: center;
 }
 .home-details{
- font-size: 30px;
+ font-size: 20px;
  text-align:left;
 }
 .home-ul{
   border-radius: 10px;
-  border:5px solid black;
-  box-shadow: 5px -5px 5px black;
+  border:2px   solid black;
+  margin-right: 10px;
+  box-shadow: 5px 5px 5px black;
 }
 .home-final{
   font-size: 30px;
   text-align: center;
-  margin-left: 30px;
   color: #213547;
+  margin-top:50px;
 }
 /*Info component */
 .info{
   display: block;
   background-color: #eefc5e;
   align-items: center;
-  height: 520px;
-  width:1350px;
+  height: 350px;
+  width:930px;
   border-radius: 10px;
-  margin-left: 35px;
-  box-shadow: 3px,5px,black;
-  box-shadow: 5px -5px 5px black;
+  margin-left: auto;
+  box-shadow: 5px 5px 5px black;
+  margin-right: auto;
 }
 .info-head{
-  font-size: 38px;
+  font-size: 30px;
   color:#213547;  
-  margin-left: 150px;
-  padding-top: 50px;
+  padding-top: 20px;
+  text-align: center;
 
 }
 .info-body{
@@ -162,18 +166,19 @@ button:after {
 .info-body-head{
   color: #213547;
   text-align: center;
+  font-size: 20px;
 }
 .info-body-inside{
   background-color:#eefc5e;
   border: 5px solid black;
   border-radius: 10px;
-  height:300px;
-  width:350px;
+  height:200px;
+  width:300px;
   box-shadow: 5px -5px 5px black;
 }
 .info-body-img{
-  width:350px;
-  height:112px;
+  width:289px;
+  height:96px;
   transition: transform .2s;
 }
 .info-body-img:hover{
@@ -181,32 +186,36 @@ button:after {
 }
 .info-body-text{
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
 }
 .info-body-text-li{
   text-align: left;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 400;
 }
 /*workexp*/
 .work{
   background-color: #eefc5e;
-  width: 1360px;
-  height: 500px;
-  margin-left: 35px;
+  width: 930px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 5px -5px 5px black;
   border-radius: 10px;
 }
 .work-head{
-  margin-left: 30px;
+  font-size:30px;
+  text-align: center;
+  padding-top: 20px;
 }
 .work-body-div{ 
   display: block;
   border:2px solid black;
   box-shadow: 5px -5px 5px black;
   border-radius: 10px;
-  width:400px;
-  height: 400px;
+  width:280px;
+  height: 250px;
+  margin-top: 35px;
 }
 
 .work-body{
@@ -222,22 +231,12 @@ button:after {
 .work-body-div li{
   font-size: 14px;
 }
-.work-sail{
-  width:200px;
-  height: 200px;
+.work-meta,.work-sail{
+  width:100px;
+  height: 100px;
   margin-bottom: -5px;
-  cursor:pointer;
-  margin-left:90px;
-  margin-top:30px;
-  border: 3px solid black;
-  border-radius: 50%;
-}
-.work-meta{
-  width:200px;
-  height: 200px;
-  margin-bottom: -5px;
-  margin-left:100px;
-  margin-top:30px;
+  margin-left:85px;
+  margin-top:5px;
   border: 3px solid black;
   border-radius: 50%;
   cursor: pointer;
@@ -245,50 +244,44 @@ button:after {
 .work-body-ul{
   margin-top:40px;  
 }
-.work-body-shop{
-  width:150px;
-  height:150px;
-  margin-left: 30px;
-  margin-top:30px;
-  border-radius: 50%;
-  cursor:pointer;
-  border: 3px solid black;
+.work-body-li-img{
+  display: flex;
 }
-.work-body-game{
-  width:150px;
-  height:150px;
-  margin-left:40px;
-  cursor:pointer;
+.work-body-shop,.work-body-game{
+  width:90px;
+  height:90px;
+  margin-left: 30px;
+  margin-top:0px;
   border-radius: 50%;
+  cursor:pointer;
   border: 3px solid black;
 }
 .work-sail:hover,.work-body-game:hover,.work-body-shop:hover,.work-meta:hover{
-  transform: scale(1.5);
+  transform: scale(2.5);
 }
 /*Achievement */
 .achieve{
-  display: block;
   background-color: #eefc5e;
-  align-items: center;
-  height: 500px;
-  width:1350px;
-  border-radius: 10px;
-  margin-left: 35px;
-  box-shadow: 3px,5px,black;
+  width: 930px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 5px -5px 5px black;
+  border-radius: 10px;
 }
 .acheive-head{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
+  font-size: 30px;
 }
 .acheive-body-div{
   display: block;
-  background-color:#eefc5e;
-  border: 5px solid black;
-  border-radius: 10px;
-  height:300px;
-  width:350px;
+  border:5px solid black;
   box-shadow: 5px -5px 5px black;
+  border-radius: 10px;
+  width:280px;
+  height: 250px;
+  margin-top: -30px;
 }
 .achieve-body{
   margin-top: 70px;
@@ -297,8 +290,8 @@ button:after {
   align-items: center;
 }
 .ac-school,.ac-meta,.ac-nptel{
-  width:350px;
-  height:200px;
+  width:270px;
+  height:140px;
   cursor: pointer;
   border: 3px solid black;
 }
@@ -306,11 +299,12 @@ button:after {
   transform: scale(1.5);
 }
 .ac-nptel:hover{
-  transform: scale(3);
+  transform: scale(3.5);
 }
 .acheive-body-div h3{
-  font-size: 15px;
-  padding-left: 5px;
+  font-size: 13px;
+  margin-top:15px;
+  text-align: center;
 }
 /*Business Card */
 .busy{
