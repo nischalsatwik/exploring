@@ -7,7 +7,7 @@ function Home(){
        function handle()
        
        {
-        if(inputname==="")
+        if(!inputname.trim())
         {
             alert("name must be filled");
         }
@@ -20,7 +20,7 @@ function Home(){
     return(
         <div className="home">
                 {vis&&<div className="home-vis">
-                        <h1><span className="home-first">Hello what&apos;s your name !</span> </h1>
+                        <h1><span className="home-first">Hello Enter your name !</span> </h1>
                         <div className="Home-ip-enter">
                             <input type="text"  maxLength={10} className="home-ip" onChange={(e)=>setinput(e.target.value)} ></input>
                             <button className="home-enter" onClick={handle}>Enter</button>

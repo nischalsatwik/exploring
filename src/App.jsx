@@ -10,14 +10,9 @@ import NumberGame  from "./Components/Games and Quiz/NumberGame";
 import Tictactoe from "./Components/Games and Quiz/Tictactoe";
 
 function App() {
- const [vis,setVis]=useState(true);
- useEffect(()=>{
-  setTimeout(()=>{setVis(false)},1000)
- },[]);
   return (
     <>
     <Navbar></Navbar>
-    {vis&&<h1>Click on Home</h1>}
     <Routes>
     <Route path="/home" element={<Home/> }></Route>
         <Route path="/game"  element={<Game></Game>}/>

@@ -52,9 +52,11 @@ button:after {
   align-items: center !important;
   justify-content: center;
   font-weight: 400;
-  margin-top:50px;
-  margin-left:30px;
+  margin-top:39px;
+  background: linear-gradient(#f5ebe0,#fefae0);
+  height: 100px;
   }
+  .navbar butt
 /*home component */
 .home{
   margin-top: 70px;
@@ -89,6 +91,7 @@ button:after {
   width:930px;
   height:350px;
   box-shadow: 5px 5px 5px black;
+  margin-top: 80px;
 }
 .home-just{
   text-decoration: underline;
@@ -97,14 +100,13 @@ button:after {
 }
 .home-ip {
   background-color: #212121;
-  max-width: 190px;
+  width: 170px;
   height: 15px;
   padding: 10px;
   border: 2px solid white;
   border-radius: 5px;
   font-size:large;
   font-weight: bold;
-  text-align: center;
   margin-top: 20px;
 }
 
@@ -137,6 +139,12 @@ button:after {
   color: #213547;
   margin-top:50px;
 }
+.home-ul p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
 /*Info component */
 .info{
   display: block;
@@ -148,6 +156,7 @@ button:after {
   margin-left: auto;
   box-shadow: 5px 5px 5px black;
   margin-right: auto;
+  margin-top: 80px;
 }
 .info-head{
   font-size: 30px;
@@ -202,6 +211,7 @@ button:after {
   margin-right: auto;
   box-shadow: 5px -5px 5px black;
   border-radius: 10px;
+  margin-top: 80px;
 }
 .work-head{
   font-size:30px;
@@ -268,6 +278,7 @@ button:after {
   margin-right: auto;
   box-shadow: 5px -5px 5px black;
   border-radius: 10px;
+  margin-top: 80px;
 }
 .acheive-head{
   text-align: center;
