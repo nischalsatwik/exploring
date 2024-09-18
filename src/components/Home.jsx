@@ -27,8 +27,8 @@ function Home(){
                         </div>
                 </div>}
                 {!vis &&<Phone inputname={inputname}></Phone>}
-                <p className="home-final">"If <span className="home-final-span">Determination</span> and <span className="home-final-span">Dedication</span> comes together then <span className="home-final-span">Justification </span>
-                automatically comes to your life"</p>
+                {!vis &&<p className="home-final">"If <span className="home-final-span">Determination</span> and <span className="home-final-span">Dedication</span> comes together then <span className="home-final-span">Justification </span>
+                automatically comes to your life"</p>}
         </div>
     );
  }

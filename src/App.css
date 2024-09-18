@@ -319,10 +319,7 @@ button:after {
 }
 /*Business Card */
 .busy{
-  background-color: black;
-  height:1215px;
-  width:1400px;
-  margin-top: 40px;
+  background: linear-gradient(black,black) !important;
 }
 .busy-img{
   width:300px;
@@ -333,12 +330,13 @@ button:after {
 .busy h1{
   color:white;
   margin-left: 40px;
+  margin-top:20px;
 }
 .busy h3{
   color: #F3BF99;
   font-weight: 400;
- margin-left: 320px;
-
+ margin-left: 290px;
+margin-top: 10px;
 }
 .busy p{
   color: #DCDCDC;
@@ -349,26 +347,26 @@ button:after {
   color: #DCDCDC;
   margin-left: 120px;
 }
+.busy-body-div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center   ;
+  margin-top: 30px;
+  margin-bottom: -8px;
+}
+.busy-body-div a{
+  font-size: 20px !important;
+  padding: 3px 15px 15px 3px !important;
+}
 .busy-body-div-email{
  color: black !important;
  text-decoration: none !important;
  background-color: white !important;
- margin-left: 240px;
- text-align: end;
- padding: 10px,20px,10px,20px;
-
-}
-.busy a{
-  text-align: center;
 }
 .busy-body-div-link{
   color: white !important;
  text-decoration: none !important;
  background-color: #5093E2 !important;
- margin-left: 30px;
- padding-right: 30px;
- padding-left: -20px;
- text-align: center;
 }
 .busy-about{
   color:white;
@@ -379,15 +377,40 @@ button:after {
   color:white;
   margin-left: 140px;
 }
-.busy-busy{
+.busy-busy{   
   display: block;
   background-color: #23252C;
-  height:1200px;
+  height:1250px;
   width:800px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
  border-radius: 50px;
+}
+.busy-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 63px;
+  background:  #161619;
+  border-radius: 0px 0px 50px 50px;
+  height:55px;
+  ;
+}
+.busy-insta-img,.busy-git-img,.busy-facebook-img{
+  width:50px;
+  height:50px;
+  background-color:  rgba(252, 246, 246, 0.767) ;
+  border-radius: 10px;
+  ;
+}
+.busy-email-img{
+  width:40px;
+  height:40px;
+}
+.busy-link-img{
+  width:23px;
+  height:23px;
 }
 /*Tictactoe*/
 .div11{
@@ -422,8 +445,10 @@ line-height: 100px;
 .tick-win{
   text-align: center;
 }
-.carousel-control-prev,
-.carousel-control-next {
-  color: black !important ;
- 
+.carousel-control-prev-icon
+ {
+ background-image: url("./assets/arrow-left-square-fill.svg") !important;
+}
+.carousel-control-next-icon{
+  background-image: url("./assets/arrow-right-square-fill.svg") !important;
 }

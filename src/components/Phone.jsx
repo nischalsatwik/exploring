@@ -9,13 +9,8 @@ import All from "./All";
 import { useState } from 'react';
 function Phone(props) {
    const inputname=props.inputname;
-   const [slideDirection, setSlideDirection] = useState(null);
-   const handleSlide = (direction) => {
-    setSlideDirection(direction);
-  };
-
     return (
-      <Carousel  >
+      <Carousel interval={null}  >
         <Carousel.Item>
           <All inputname={inputname}></All>
         </Carousel.Item>
