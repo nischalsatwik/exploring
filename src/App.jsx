@@ -8,6 +8,7 @@ import Businesscard from "./components/Businesscard";
 import { useState,useEffect } from "react";
 import NumberGame  from "./Components/Games and Quiz/NumberGame";
 import Tictactoe from "./Components/Games and Quiz/Tictactoe";
+import Mindgame from "./components/Games and Quiz/Mindgame"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/business"  element={<Businesscard></Businesscard>}/>
         <Route path="/game/Numbergame" element={<NumberGame></NumberGame>}/>
         <Route path="/game/Tictactoe" element={<Tictactoe></Tictactoe>}/>
+        <Route path="/game/Mindgame" element={<Mindgame></Mindgame>}/>
     </Routes>
     </>
   )

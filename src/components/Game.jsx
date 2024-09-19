@@ -4,5 +4,6 @@ export default function Game(){
     return(<>
     <button onClick={()=>navigate("/game/Numbergame")}>Magic Number</button>
     <button onClick={()=>navigate("/game/Tictactoe")}>Tic Tac Toe</button>
+    <button onClick={()=>navigate("/game/Mindgame")}>Mind Game</button>
     </>)
 }

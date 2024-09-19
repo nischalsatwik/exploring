@@ -452,3 +452,30 @@ line-height: 100px;
 .carousel-control-next-icon{
   background-image: url("./assets/arrow-right-square-fill.svg") !important;
 }
+/*Mind game */
+.main-body{
+  display: flex;
+  margin-top: 30px;
+  }
+  .red,.blue,.green,.yellow{
+      width:200px;
+      height:200px;
+      margin-left: 30px;
+      cursor:pointer;
+  }
+  .red{
+      background-color: red;
+  }
+  .blue{
+      background-color:blue;
+  }
+  .green{
+      background-color: green;
+  }
+  .yellow{
+      background-color: yellow;
+  }
+  .main-body-buttons{
+    margin-top: 30px;
+    cursor: pointer;
+  }
