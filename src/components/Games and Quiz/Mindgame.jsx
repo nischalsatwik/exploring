@@ -1,6 +1,8 @@
 import {  useRef } from "react";
+import { useNavigate } from "react-router-dom";
 function Mindgame()
 {
+    const navigate=useNavigate();
     let vis=false;
     let message="level 1";
 
@@ -56,6 +58,7 @@ function Mindgame()
         {
             console.log(arr2,"noted indside glow colors");
             vis=true;
+            alert("now your turn");
         }
     }
 
@@ -73,7 +76,7 @@ function Mindgame()
         if(vis)
           console.log(vis,"=vis")
         {
-           ()=> element.current.style.backgroundColor = "black";
+            element.current.style.backgroundColor = "black";
         setTimeout(() => {
             element.current.style.backgroundColor = color;
         }, 200);
@@ -113,7 +116,8 @@ return(
     <div className="main-body-buttons">
       <button onClick={game}>Start</button>
       <button onClick={()=>window.location.reload()}>Restart</button>
-      <p>{message}</p>
+      <button onClick={()=>navigate("/game")}>Back</button>
+      <p>Just click on the color after the color turns black . For each level the number of colours turn black increases. All the best </p>
     </div>
 </div>
 )

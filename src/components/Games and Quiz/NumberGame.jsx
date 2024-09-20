@@ -2,7 +2,7 @@ import {useState,useEffect} from 'react'
 import { useNavigate } from 'react-router-dom';
 export default function NumberGame(){
     const navigate=useNavigate();
-    const p1=["Your guess is right. The random number chosen is: ","you have guessed in ","your guess is high","your guess is low"];
+    const p1=["Your guess is right. The random number chosen is: ","Your 7 chances are over","your guess is high","your guess is low"];
     const [p2,setP2]=useState(0);
     const [p3,setP3]=useState([]);
     const [Count,setCount]=useState(0);
@@ -44,19 +44,18 @@ export default function NumberGame(){
         }
     }
     
-    return(<div>
+    return(<div className="guess">
         <h1>Guess the number</h1>
-        <p>Find the number between 1 to 100 and click on guess. Below your guesses will be listed and your guess will be told that it's high or low and you will be given 7 chances. Try your best</p>
-        <input type="text"  onChange={e=>setP2(e.target.value)} ></input>
+        <p>Find the number between 1 to 100 and click on guess.<br></br> Below your guesses will be listed and your guess will be told that it's high or low and you will be given 7 chances. Try your best</p>
+        <input type="text" id="inputs" onChange={e=>setP2(e.target.value)} ></input>
         <button className='game-show' onClick={calculate} disabled={disable? true : false}>Guess</button>
         <p>{p5}</p>
         <h1>{p3.join(",")}</h1>
-        {disable &&(
             <>
-        <button onClick={()=>window.location.reload()}>Yes</button>
+            {disable &&<p>The random number chosen is : {randomNumber}</p>}
+        <button id="guess-play" onClick={()=>window.location.reload()}>Restart</button>
         <button onClick={()=>navigate("/game")}>Back</button>
-        </>)
-}
+        </>
     </div>
         );      
 }

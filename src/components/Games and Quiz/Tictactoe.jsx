@@ -73,6 +73,7 @@ export default function Tictactoe(){
         <button className="tic-back" onClick={()=>navigate("/game")}>Back</button>
         <button onClick={()=>window.location.reload()}>Restart</button>
         </div>
+        <p>It's a basic tic tac toe . Play with your friend. Start by clicking on the box</p>
     </div>
     )
 }

@@ -14,7 +14,7 @@ function All(props)
                 <li className="home-details"><span className="home-just">Acheivements</span> to know what I have acheived until now.</li>
                 <p>And click on the above</p>
                 <li className="home-details"><span className="home-just">Business card</span> to contact me through social media or email</li>
-                <li className="home-details"><span className="home-just">Games and Quiz</span> to have some fun</li>
+                <li className="home-details"><span className="home-just">Games</span> to have some fun</li>
             </ul>
             </div>
         </div>

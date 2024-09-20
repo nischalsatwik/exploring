@@ -412,7 +412,31 @@ margin-top: 10px;
   width:23px;
   height:23px;
 }
+/*Guess-game*/
+.guess{
+margin-top:70px;
+}
+.guess h1{
+  text-align: center!important;
+}
+.guess p{
+  margin-top: 30px;
+  text-align: center!important;
+  font-size: 20px;
+  font-weight: 400;
+}
+ #inputs{
+    margin-left:630px!important;
+}
+#guess-play
+{
+  margin-top:30px;
+  margin-left:600px;
+}
 /*Tictactoe*/
+.tic{
+  margin-top:50px;
+}
 .div11{
   width: 100px;
   height: 100px;
@@ -452,10 +476,18 @@ line-height: 100px;
 .carousel-control-next-icon{
   background-image: url("./assets/arrow-right-square-fill.svg") !important;
 }
+.tic p{
+  margin-left: 450px;
+  font-size: 20px;
+  font-weight: 400;
+}
 /*Mind game */
+
 .main-body{
   display: flex;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px
   }
   .red,.blue,.green,.yellow{
       width:200px;
@@ -477,5 +509,13 @@ line-height: 100px;
   }
   .main-body-buttons{
     margin-top: 30px;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    margin-left: 600px;
+  }
+  .main-body-buttons p{
+   margin-left:-450px !important;
+   font-weight: bolder !important;
+   font-size:20px !important;
   }
