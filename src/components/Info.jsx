@@ -1,3 +1,4 @@
+import imgs from "../Images/lendi.jpg"
 function Info(){
     return(
         <div className="info">
@@ -8,7 +9,7 @@ function Info(){
                 <div className="info-body-inside">
                     <h1 className="info-body-head">Education</h1>
                     <p className="info-body-text">Studied ECE at lendi institute of engineering and technology</p>
-                    <img className="info-body-img" src="src\Images\lendi.jpg"></img>
+                    <img className="info-body-img" src={imgs}></img>
                 </div>
                 <div className="info-body-inside">
                     <h1 className="info-body-head">Hobbies</h1>

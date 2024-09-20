@@ -1,22 +1,12 @@
 body{
   background-color:white;
 }
-
-/*buttons */ 
-button {
-  font-size: 22px !important;
-  color: #213547!important;
-  font-family: inherit !important;
-  font-weight: 500 !important;
-  cursor: pointer !important;
-  position: relative !important;
-  border: none !important;
-  background: none !important;
-  text-transform: uppercase !important;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1) !important;
-  transition-duration: 400ms !important;
-  transition-property: color !important;
+.img10{
+  height: 100vh;
+  width:100vw;
 }
+
+/*buttons */
 
 button:focus
 {
@@ -45,7 +35,7 @@ button:after {
   transition-duration: 400ms !important;
   transition-property: width, left !important;
 
-}
+} 
 /*Navbar */
 .navbar{
   display: flex;
@@ -472,9 +462,11 @@ line-height: 100px;
 .carousel-control-prev-icon
  {
  background-image: url("./assets/arrow-left-square-fill.svg") !important;
+ background-color: white !important;
 }
 .carousel-control-next-icon{
   background-image: url("./assets/arrow-right-square-fill.svg") !important;
+  background-color: white !important;
 }
 .tic p{
   margin-left: 450px;

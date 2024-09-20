@@ -3,11 +3,12 @@ import facebook from "../assets/facebook.svg";
 import email from "../assets/reshot-icon-email-9E7C2RF3VS.svg";
 import git from "../assets/github.svg";
 import link from "../assets/linkedin.svg";
+import nischal from "../Images/nischal.jpeg"
 function Businesscard(){
     return(
         <div className="busy">
             <div className="busy-busy">
-                <img className="busy-img" src="src\Images\nischal.jpeg"></img>
+                <img className="busy-img" src={nischal}></img>
                 <h1>Jhadtheela Sai Nischal Satwik</h1>
                 <h3>Software engineer</h3>
                 <div className="busy-body-div">

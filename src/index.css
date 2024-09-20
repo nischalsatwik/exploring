@@ -13,7 +13,8 @@ body,.busy {
   margin: 0;
    background: linear-gradient(#cdb4db,#ffafcc);
   margin-top:-40px;
- min-height: 100vh;
+  width:100vw;
+ height: 100vh;
   background-size: cover;
 }
 
@@ -29,9 +30,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color:#ffafcc  !important;
   cursor: pointer;
   transition: border-color 0.25s;
+
 }
 button:hover {
   border-color: #646cff;

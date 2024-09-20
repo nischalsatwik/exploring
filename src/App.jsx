@@ -9,11 +9,12 @@ import { useState,useEffect } from "react";
 import NumberGame  from "./Components/Games and Quiz/NumberGame";
 import Tictactoe from "./Components/Games and Quiz/Tictactoe";
 import Mindgame from "./components/Games and Quiz/Mindgame"
-
+import hd from "./Images/hd.jpg"
 function App() {
   return (
     <>
     <Navbar></Navbar>
+    {/* <img src={hd}></img> */}
     <Routes>
     <Route path="/" element={<Home/> }></Route>
         <Route path="/game"  element={<Game></Game>}/>

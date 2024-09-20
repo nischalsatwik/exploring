@@ -1,3 +1,7 @@
+import img1 from "../Images/sailpoint.png"
+import img2 from "../Images/metas.jpg"
+import img3 from "../Images/shop.jpg"
+import img4 from "../Images/games.jpg"
 function Workexp() {
   return (
     <div className="work">
@@ -10,7 +14,7 @@ function Workexp() {
               <li>Tools used : Postman,PLSQL</li>
               <li>Learnt Identity access management techniques</li>
             </ul>
-            <img className="work-sail" src="src\Images\sailpoint.png"></img>
+            <img className="work-sail" src={img1}></img>
           </div>
           <div className="work-body-div">
             <h3 className="work-body-li">Meta</h3>
@@ -19,7 +23,7 @@ function Workexp() {
               <li>Tested Meta applications</li>
               <li>Did Localization,accessibility and manual testing</li>
             </ul>
-            <img className="work-meta" src="src\Images\metas.jpg"></img>
+            <img className="work-meta" src={img2}></img>
           </div>
           <div className="work-body-div">
             <h3 className="work-body-li">Solo Projects</h3>
@@ -28,8 +32,8 @@ function Workexp() {
               <li>Developed small games using Javascript: Number guessing game, Tic Tac Toe</li>
             </ul> 
             <div className="work-body-li-img">
-            <img className=" work-body-shop" src="src\Images\shop.jpg"></img>
-            <img className="work-body-game" src="src\Images\games.jpg"></img>
+            <img className=" work-body-shop" src={img3}></img>
+            <img className="work-body-game" src={img4}></img>
             </div>
           </div>
         </div>
